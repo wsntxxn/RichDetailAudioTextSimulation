@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+spraying -shatter -speech -rattle -beep -bubble -gun"
+    ],
+    "min_duration": 0.5,
+    "max_duration": 3.0
+}

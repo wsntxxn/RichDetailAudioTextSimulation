@@ -1,0 +1,22 @@
+{
+    "queries": [
+        "+tire -deflate brake squeal skid -tired -retro -speech -water -telephone -horn -weird -guitar -baby -voice-over -horse -digital -monster -thunder -duck -creaking -effect -clink -swish -piano -hip -applause -clapping -cough -choir -singing -sing -laugh -laughter -music -gun -gunshot -moan -horror -pain -hurt -percussion -remix -sigh -fight",
+        "+skid -deflate squeal -tired -retro -speech -water -telephone -horn -weird -guitar -baby -voice-over -horse -digital -monster -thunder -duck -clink -swish -piano -hip -applause -clapping -cough -choir -singing -sing -laugh -laughter -music -gun -gunshot -moan -horror -pain -hurt -percussion -remix -sigh -fight"
+    ],
+    "min_duration": 1.0,
+    "max_duration": "*",
+    "grounding_filter": {
+        "query": "skidding",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "single_occurrence_spliter": {
+        "query": "skidding",
+        "threshold": 0.5,
+        "connect_duration": 1.0,
+        "min_single_occurrence_duration": 1.0,
+        "max_single_occurrence_duration": 300.0,
+        "min_duration_after_padding": 2.0
+    }
+}

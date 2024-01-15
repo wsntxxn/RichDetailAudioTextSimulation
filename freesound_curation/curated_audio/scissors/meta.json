@@ -1,0 +1,17 @@
+{
+    "queries": [
+        "+scissor scissors -winding -ringing -train -film -cassette -glass -recombinant -splash -running -falling -pour -laugh -shouting -drill -music -drum -sing -singing -speech -telephone -horn -weird -horse -digital -monster -thunder -duck -creaking -effect -clink -swish -hip -applause -clapping -cough -choir -gun -gunshot -moan -horror -pain -hurt -remix -sigh -fight"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "scissors",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "clap_filter": {
+        "query": "scissors",
+        "threshold": 0.25
+    }
+}

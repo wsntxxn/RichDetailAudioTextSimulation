@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+saxophone solo -human -processed -horror -weird -synth -mix -noise -remix -guitar -piano -people"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "saxophone",
+        "threshold": 0.5
+    }
+}

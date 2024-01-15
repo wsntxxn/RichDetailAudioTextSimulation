@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+wind +blowing +[trees|microphone] -talking -truck -bark -fan -rain -walk -bird -birds -voices -distortion -ship -radio -metal -shower -river -thunder -train -funny"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "210.0",
+    "grounding_filter": {
+        "query": "wind blowing",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 30.0
+    }
+}

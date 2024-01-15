@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+trumpet +solo music pure -people -toy -drum -guitar -horror -drum -drums -beat -animals -voice -voices -synth -remix -song -noise"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "trumpet",
+        "threshold": 0.35
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+engine +[starting|revving]"
+    ],
+    "min_duration": 2.0,
+    "max_duration": 10.0
+}

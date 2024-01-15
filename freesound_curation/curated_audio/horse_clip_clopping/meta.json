@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+[gallop|clop] +horse"
+    ],
+    "min_duration": 3.0,
+    "max_duration": 10.0,
+    "clap_filter": {
+        "query": "clip-clopping",
+        "threshold": 0.3
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+sigh -cough -breath -sneeze -voice -choke -roar -growl -drink -close -ghost -dice -door"
+    ],
+    "min_duration": 1.0,
+    "max_duration": "5.0"
+}

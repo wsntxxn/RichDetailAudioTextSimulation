@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+thump thud -speech -music -water -talk -synth -keyboard -bell -guitar"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "5.0",
+    "clap_filter": {
+        "query": "thump",
+        "threshold": 0.3
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "queries": [
+        "+gun shot gunshot -cat -dog -speech -talk -vocal -teleport -ambiance -synthesizer -growl -yip -whimper -leaves -explosion"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "gunshot",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 15.0
+    },
+    "clap_filter": {
+        "query": "gunshot",
+        "threshold": 0.4
+    },
+    "single_occurrence_filter": {
+        "query": "gunshot",
+        "threshold": 0.5,
+        "connect_duration": 0.2,
+        "max_single_occurrence_duration": 1.0,
+        "min_single_occurrence_duration": 0.1
+    },
+    "single_occurrence_spliter": {
+        "query": "gunshot",
+        "threshold": 0.5,
+        "connect_duration": 0.1,
+        "min_single_occurrence_duration": 0.1,
+        "max_single_occurrence_duration": 1.0,
+        "min_duration_after_padding": 2.0
+    }
+}

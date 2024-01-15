@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+crow crows -cocks -bird -birds -people -crowd -rooster -snow -cars -water -wind"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "90.0",
+    "grounding_filter": {
+        "query": "crow",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

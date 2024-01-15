@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+[scrap|rubbing|sand] -drop -collision -thump -thud -click -music -speech -talk -hit -chime -bird -fire -machine -wind -footstep -crack -squeak -creak"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0"
+}

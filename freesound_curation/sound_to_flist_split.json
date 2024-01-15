@@ -1,0 +1,114 @@
+{
+    "tapping_clicking_clanking": {
+        "text": "clicking tapping clanking",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/clicking_tapping_clanking/filtered_single.txt",
+                "./curated_audio/clicking_tapping_clanking/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/clicking_tapping_clanking/non_single.txt"
+            ]
+        }
+    },
+    "hammering": {
+        "text": "hammering",
+        "threshold": 0.5,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/hammering/filtered_single.txt",
+                "./curated_audio/hammering/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/hammering/non_single.txt"
+            ]
+        }
+    },
+    "dog_barking": {
+        "text": "dog barking",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/dog_barking/filtered_single.txt",
+                "./curated_audio/dog_barking/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/dog_barking/non_single.txt"
+            ]
+        }
+    },
+    "horse_neighing": {
+        "text": "horse neighing",
+        "threshold": 0.5,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/horse_neighing/filtered_single.txt",
+                "./curated_audio/horse_neighing/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/horse_neighing/non_single.txt"
+            ]
+        }
+    },
+    "cow_mooing": {
+        "text": "cow mooing",
+        "threshold": 0.5,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/cow_mooing/filtered_single.txt",
+                "./curated_audio/cow_mooing/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/cow_mooing/non_single.txt"
+            ]
+        }
+    },
+    "sheep_goat_bleating": {
+        "text": "sheep goat bleating",
+        "threshold": 0.5,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/sheep_goat_bleating/filtered_single.txt",
+                "./curated_audio/sheep_goat_bleating/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/sheep_goat_bleating/non_single.txt"
+            ]
+        }
+    },
+    "duck_quacking": {
+        "text": "duck quacking",
+        "threshold": 0.5,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/duck_quacking/filtered_single.txt",
+                "./curated_audio/duck_quacking/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/duck_quacking/non_single.txt"
+            ]
+        }
+    },
+    "man_crying": {
+        "text": "man crying",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/man_crying/clap_filtered.txt",
+            "./youtube/man_crying/filtered_to_split.txt"
+        ]
+    },
+    "whoosh_swoosh": {
+        "text": "whoosh",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/whoosh_swoosh/filtered_single.txt",
+                "./curated_audio/whoosh_swoosh/splited_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/whoosh_swoosh/non_single.txt"
+            ]
+        }
+    }
+}

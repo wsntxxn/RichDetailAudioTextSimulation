@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+breath -alien -straw -gasp -monster -growl -moan -wind -noise -sigh -harmonic -spray -laugh -voice -effect"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "5.0"
+}

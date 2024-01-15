@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+[goat|sheep] +bleat -crowd"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "*"
+}

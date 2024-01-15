@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+sizzling oil food -traffic -sea -pad -crickets"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "210.0",
+    "grounding_filter": {
+        "query": "oil sizzling",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

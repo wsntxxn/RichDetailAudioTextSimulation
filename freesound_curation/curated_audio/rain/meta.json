@@ -1,0 +1,10 @@
+{
+    "queries": [
+        "+rain sound -wind -birds -radio -metal -shower -river -thunder -pedestrian -footsteps -voice -voices -harmony"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "90.0",
+    "clap_filter": {
+        "query": "rain"
+    }
+}

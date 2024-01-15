@@ -1,0 +1,16 @@
+{
+    "queries": [
+        "+crickets ambience -birds -water -car -wind -dog -traffic -thunder -footsteps -frog -animals -bells -clicks"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "90.0",
+    "grounding_filter": {
+        "query": "crickets chirping",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "clap_filter": {
+        "query": "crickets chirping"
+    }
+}

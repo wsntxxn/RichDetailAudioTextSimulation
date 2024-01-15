@@ -1,0 +1,22 @@
+{
+    "queries": [
+        "+car +horn -siren -thunder -duck -scream -creaking -effect -electronic -clink -swish -piano -synth -birds -hip -applause -clapping -cough -choir -singing -sing -laugh -music -gunshot -moan -horror -pain -laughter -hurt -percussion -remix -sigh -fight -child"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "5.0",
+    "grounding_filter": {
+        "query": "car horn honking",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "single_occurrence_filter": {
+        "query": "car horn honking",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_single_occurrence_duration": 3.0
+    },
+    "clap_filter": {
+        "query": "car horn honking"
+    }
+}

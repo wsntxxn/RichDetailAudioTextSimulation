@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+wolf -music -dog -whistle -cat -horse -gun -bass -cello -ochestral -voice"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "5.0"
+}

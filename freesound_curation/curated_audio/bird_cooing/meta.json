@@ -1,0 +1,14 @@
+{
+    "queries": [
+        "+coo +[pigeon|bird] -insanity -story -voice",
+        "+cooing +[pigeon|bird] -insanity -story -voice"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "*",
+    "grounding_filter": {
+        "query": "cooing",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

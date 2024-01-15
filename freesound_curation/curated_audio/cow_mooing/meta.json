@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+[moo|cow] -bell -speech"
+    ],
+    "min_duration": 2.0,
+    "max_duration": 5.0
+}

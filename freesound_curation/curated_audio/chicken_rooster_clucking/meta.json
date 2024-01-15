@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+[chicken|rooster] +cluck -pig -crowd -duck"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "180.0"
+}

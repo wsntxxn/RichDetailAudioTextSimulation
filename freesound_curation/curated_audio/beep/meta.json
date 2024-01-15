@@ -1,0 +1,23 @@
+{
+    "queries": [
+        "+beeping -voice -percussion -synth -honk -gunshot -peep -turning -speech -effect -car -explosion -gun -boat -door -cheer -laugh -cough -frogs -animal -field-recording -Voiceover -electronic"
+    ],
+    "min_duration": 1.0,
+    "max_duration": "3.0",
+    "clap_filter": {
+        "query": "beeping",
+        "threshold": 0.4
+    },
+    "grounding_filter": {
+        "query": "beeping",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "single_occurrence_filter": {
+        "query": "beeping",
+        "threshold": 0.5,
+        "connect_duration": 0.1,
+        "max_single_occurrence_duration": 2.0
+    }
+}

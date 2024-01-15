@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+horse +neigh -infant -mix"
+    ],
+    "min_duration": 0.0,
+    "max_duration": 10.0
+}

@@ -1,0 +1,17 @@
+{
+    "queries": [
+        "+[shout|scream] -weird -baby -owl -water -voice-over -horse -digital -monster -siren -thunder -duck -creaking -effect -electronic -clink -swish -piano -synth -birds -hip -applause -clapping -cough -choir -singing -sing -laugh -music -gunshot -moan -horror -pain -laughter -hurt -percussion -remix -sigh -fight -child"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "screaming",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "clap_filter": {
+        "query": "screaming",
+        "threshold": 0.4
+    }
+}

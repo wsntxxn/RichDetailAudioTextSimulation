@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+camera -gunshot -peep -turning -speech -effect -car -explosion -gun -boat -door -cheer -laugh -cough -frogs -animal"
+    ],
+    "min_duration": 1.0,
+    "max_duration": "5.0",
+    "clap_filter": {
+        "query": "camera shuttering",
+        "threshold": 0.4
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "queries": [
+        "+cat +meow -vocal -teleport -ambiance -synthesizer -talk -purr"
+    ],
+    "min_duration": 1.0,
+    "max_duration": "5.0",
+    "single_occurrence_filter": {
+        "query": "a cat meows",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_single_occurrence_duration": 2.0
+    },
+    "clap_filter": {
+        "query": "cat meowing",
+        "threshold": 0.35
+    }
+}

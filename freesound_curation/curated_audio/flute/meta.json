@@ -1,0 +1,10 @@
+{
+    "queries": [
+        "+flute solo +music -orchestra -cartoon -drums -box -remix -street -nature -voices -wind -crowd -mix -synth -song -piccolo -piano -process -people -human -voice -india"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "flute"
+    }
+}

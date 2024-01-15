@@ -1,0 +1,54 @@
+I want you to perform this task: generate the text description of an audio given the input json. The input structure is:
+{
+    ("background": <the background sound>),
+    "sounds": [
+        {
+            "sound": <sound type>,
+            ("times": <occuring times>,)
+            ("loudness": <loudness>,)
+            ("id": <sound id>)
+        },
+        ...
+    ],
+    ("temporal": "(<sound id 1> and <sound id 2> and ... ) then (<sound id 1> and ...) ... then (<sound id 1> and ...)")
+}
+"background", "times", "loudness", "id" and "temporal" are not necessarily included.
+To generate a description sentence based on this structured data, you should:
+1. Describe the background and all sounds in "sounds".
+2. For each sound, if "loudness" exists, describe its loudness using specific words according to the sound type, e.g., (speak) loudly, low (vibrating noise), softly, a strong (wind), etc.
+3. If "times" exists, it means this sound is times-sensitive, you should use corresponding words to describe:
+    (1) If the value > 3, using vague words like "multiple times", "many times", etc.
+    (2) Otherwise, using exact words like "twice", "three times", etc.
+4. If "id" exists for a sound or "sound" ends with a number, it means this sound is identity-sensitive, use corresponding words to describe it:
+    (1) If "id" is "single", it means a single object sounds <times> times. For example, "times" is 3 and "sound" is gunshot, you can say "a gun shots three times"
+    (2) If "id" is "multiple", it means different object sounds <times> times. For example, "times" is 2 and "sound" is "dog barking", you can say "two dogs bark"
+    (3) If "sound" ends with a number n, it means the n-th object of this sound type. For example, two "sound" values are "man speaking 1" and "man talking 2", you can say "a man speaks" and "another man talks"
+5. Connect sound descriptions into a single sentence with less than 25 words. If "temporal" exists, use conjunction words according to the relationship. Each sound inside "()" happen simultaneously and sounds between "()" happen sequentially.
+    (1) Use words like "then" "followed by" "before" "after" to describe the sequential relationship
+    (2) Use words like "and" "with" "together with" to describe the simultaneous relationship
+Here are a few examples:
+1. input:
+{
+    "background": "wind blowing",
+    "sounds": [
+        {"sound": "gunshot", "times": 2, "id": "single"},
+        {"sound": "train horn honking"},
+        {"sound": "insect buzzing"}
+    ],
+    "temporal": "('gunshot') then ('train horn honking' and 'insect buzzing')"
+}
+output:
+a gun shots twice then a train horn honks while an insect buzzing with wind blowing in the background the whole time
+2. input:
+{
+    "background": "ocean_waves",
+    "sounds": [
+        {"sound": "man speaking 1", "loudness": "loud"},
+        {"sound": "male voice 2", "loudness": "loud"},
+        {"sound": "siren"}
+    ],
+    "temporal": "('man speaking 1') then ('siren')"
+}
+output:
+a man speaks loudly followed by a siren wailing and voice from another man, waves crash in the distance
+Please generate the description based on this input:

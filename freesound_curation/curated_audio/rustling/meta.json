@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+rustling tree leaves -voice -speak -clink -crumple -crumpling -rain -train -music -crackle -crackling -jingle -bird -birds -plane -ghost -door -clamp -breathe -song -footstep -footsteps"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "180.0",
+    "grounding_filter": {
+        "query": "rustling",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

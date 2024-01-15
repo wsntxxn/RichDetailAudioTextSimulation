@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+harmonica music solo -drum -drums -beat -animals -voice -voices -synth -remix -song -noise"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "harmonica",
+        "threshold": 0.4
+    }
+}

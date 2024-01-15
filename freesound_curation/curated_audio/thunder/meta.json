@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+thunder +lightning thunderstorm -digital -electric -birds -voices -voice -mix -war"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "90.0",
+    "grounding_filter": {
+        "query": "thunder",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 30.0
+    }
+}

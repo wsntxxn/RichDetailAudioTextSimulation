@@ -1,0 +1,17 @@
+{
+    "queries": [
+        "+bell +[chime|ring] -music -hiphop -speech -talk -bird -birds -laugh -thunder -scream -creaking -swish -piano -applause -clapping -cough -choir -gunshot -moan -horror -pain -laughter -hurt"
+    ],
+    "min_duration": 1.0,
+    "max_duration": "5.0",
+    "clap_filter": {
+        "query": "bell chiming",
+        "threshold": 0.3
+    },
+    "single_occurrence_filter": {
+        "query": "a bell rings",
+        "threshold": 0.5,
+        "connect_duration": 0.1,
+        "max_single_occurrence_duration": 2.5
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+aircraft -chatter -helicopter -electronic -car -bell -toilet"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "aircraft flying by",
+        "threshold": 0.2,
+        "connect_duration": 0.5,
+        "max_non_target_duration": null
+    }
+}

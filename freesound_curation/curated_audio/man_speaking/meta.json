@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+man speak talk voice -female -robotic -cough -breath -yell -cry -scream -choir -wordless -shout -shouting -laughter -hum -laugh -grunt -music -choke -choking -growning"
+    ],
+    "min_duration": 2.0,
+    "max_duration": 10.0
+}

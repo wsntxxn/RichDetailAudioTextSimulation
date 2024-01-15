@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+cello solo +music instrument -trumpets -piano -guitar -remix -violin -drum -voices"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "cello",
+        "threshold": 0.4
+    }
+}

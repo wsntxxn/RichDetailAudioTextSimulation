@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+hammering hammer -speech -music -water -talk -synth -keyboard -bell -guitar -siren -chord -bell -saw -drop"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "5.0",
+    "clap_filter": {
+        "query": "hammering",
+        "threshold": 0.3
+    }
+}

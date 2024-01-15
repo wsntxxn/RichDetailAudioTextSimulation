@@ -1,0 +1,11 @@
+man_speaking
+dog_barking
+cat_meowing
+gunshot
+bell_chiming
+woman_speaking
+man_singing
+woman_singing
+man_laughing
+woman_laughing
+baby_laughing

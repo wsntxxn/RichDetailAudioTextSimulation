@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+bird +chirping -music -dog -car -water -frog -rain -background -bell -voice -voices -wind"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "180.0"
+}

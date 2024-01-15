@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+telephone +ring -speech -water -explosion -horn -weird -guitar -baby -voice-over -horse -digital -monster -thunder -duck -creaking -effect -clink -swish -piano -hip -applause -clapping -cough -choir -singing -sing -laugh -laughter -music -gunshot -moan -horror -pain -hurt -percussion -remix -sigh -fight"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "telephone ringing",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+water +gurgl -child"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0"
+}

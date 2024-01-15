@@ -1,0 +1,14 @@
+{
+    "queries": [
+        "+sneeze -breath -cough -single -dog -roar -voice",
+        "+sneeze -breath -cough -dog -roar -voice"
+    ],
+    "min_duration": 1.0,
+    "max_duration": "5.0",
+    "single_occurrence_filter": {
+        "query": "human sneezing",
+        "threshold": 0.7,
+        "connect_duration": 0.5,
+        "max_single_occurrence_duration": 1.0
+    }
+}

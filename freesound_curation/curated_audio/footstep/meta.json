@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+footstep -voice -speak -rain -train -music -door -motor -engine -water -insect -crash -creak -rustling"
+    ],
+    "min_duration": 5.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "footsteps",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

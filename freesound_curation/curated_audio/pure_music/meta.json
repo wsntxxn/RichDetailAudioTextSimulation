@@ -1,0 +1,12 @@
+{
+    "queries": [
+        "+pure +music -voices -talk",
+        "pure +music -human -voice -talk -sci -voices"
+    ],
+    "min_duration": 10.0,
+    "max_duration": "90.0",
+    "clap_filter": {
+        "query": "pure music",
+        "threshold": 0.4
+    }
+}

@@ -1,0 +1,38 @@
+Please assist me to perform this task: I will give you a json input describing sound attributes, you should generate corresponding text using precise words. The input format is:
+
+{
+    "sound": <the type of sound>,
+    ("times": <the occuring times of the sound>,)
+    ("loudness": <the loudness of the sound>,)
+    ("id": <the identity of the sounding object>)
+}
+"sound" is always included, but "time", "loudness" and "id" not.
+To generate the description, you should:
+1. Use diverse expressions to describe "sound". For example, the input is "oil sizzling", you can use "food is being fried".
+2. Reflect "loudness" and "times":
+    (1) If "times" exists, it means this sound is times-sensitive, use corresponding words to describe it:
+        (a) If the value is "multiple", using words like "multiple times", "many times", "a lot of times", etc;
+        (b) if the value is 1 ~ 3, using exact words like "twice", "three times", etc.
+    (2) If "id" exists for a sound, it means this sound is identity-sensitive, use corresponding words to describe it:
+        (a) If the value is "single", it means the same sound happens <times> times. For example, "times" is 3 and the sound is gunshot, you can say "a gun shots three times";
+        (b) If the value is "multiple", it means different individuals sounds <times> times. For example, "times" is 2 and the sound is "dog barking", you can say "two dogs bark";
+    (3) If "loudness" exists, use specific words according to the sound, e.g., (speak) loudly, low (vibrating noise), softly, a strong (wind), etc.
+Here are several examples:
+1. input:
+{"sound": "gunshot", "times": 2, "id": "single"}
+output:
+a gun shots twice
+2. input:
+{"sound": "man speaking", "loudness": "loud"}
+output:
+a man speaks in a loud voice
+3. input:
+{"sound": "bell chiming", "times": 3, "id": "multiple"}
+output:
+three bells are chiming
+4. input:
+{"sound": "explosion", "time": "multiple"}
+output:
+several explosions happen
+
+Please generate the text based on this input:

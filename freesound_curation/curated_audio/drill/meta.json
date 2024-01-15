@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+drill -bass -voice -speak -saw -baby -ring -flash -ringing"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "10.0"
+}

@@ -1,0 +1,15 @@
+{
+    "queries": [
+        "crumpling -sci -water",
+        "crinkling -sci -processed -water -auto -fiction -click",
+        "+crackling +fire -talking -voice -remix -mixed -insect -birds -sci -processed -water -auto -fiction -click"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "*",
+    "grounding_filter": {
+        "query": "crackling",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

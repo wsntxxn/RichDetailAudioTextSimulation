@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+orchestral +music -sea -weather -horn -animals"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "orchestra",
+        "threshold": 0.2
+    }
+}

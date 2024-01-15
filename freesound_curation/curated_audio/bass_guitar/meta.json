@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+\"bass guitar\" melody solo -siren -sci-fi -drum -piano -noise"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "bass guitar",
+        "threshold": 0.38
+    }
+}

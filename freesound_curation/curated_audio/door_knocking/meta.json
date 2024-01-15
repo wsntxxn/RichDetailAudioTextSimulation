@@ -1,0 +1,17 @@
+{
+    "queries": [
+        "+door +[knock|knocking] -voice -speech -talk -explosion -horn -beep -weird -guitar -voice -over -horse -digital -monster -thunder -duck -creaking -electronic -piano -synth -birds -hip -applause -clapping -cough -choir -singing -sing -laugh -music -gunshot -moan -horror -pain -laughter -hurt -percussion -remix -sigh -fight"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "door knocking",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "clap_filter": {
+        "query": "door knocking",
+        "threshold": 0.35
+    }
+}

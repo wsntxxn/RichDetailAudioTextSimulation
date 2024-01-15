@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+group +singing -birds -synthetic -traffic -processed"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "group singing",
+        "threshold": 0.25
+    }
+}

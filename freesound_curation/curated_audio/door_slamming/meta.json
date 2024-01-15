@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+door +[close|slam] -open -oven -gunfire -gunshot"
+    ],
+    "min_duration": 0.5,
+    "max_duration": 3.0
+}

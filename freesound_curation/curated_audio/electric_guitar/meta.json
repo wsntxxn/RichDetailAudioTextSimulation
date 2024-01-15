@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+\"electric guitar\" melody solo -noise"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "*",
+    "clap_filter": {
+        "query": "electric guitar",
+        "threshold": 0.4
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+clicking click tapping tap clanking clank clicking clanking -rattle -rattling -speech -music -water -talk -synth -keyboard -bell -guitar"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "5.0",
+    "clap_filter": {
+        "query": "clicking, clanking, tapping",
+        "threshold": 0.3
+    }
+}

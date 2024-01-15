@@ -1,0 +1,17 @@
+{
+    "queries": [
+        "+motorboat -surf -wave -waves -underwater -voices"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "300.0",
+    "grounding_filter": {
+        "query": "motorboat running",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "clap_filter": {
+        "query": "motorboat",
+        "threshold": 0.3
+    }
+}

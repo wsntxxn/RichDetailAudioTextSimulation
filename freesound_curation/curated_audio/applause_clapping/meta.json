@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+[applause|clapping] -yell -thunder -cheer -birds -hip -crying -screams -cough -choir -singing -sing -laugh -music -field-recording -man -laughter -gunshot -transformed -hentai -male -moan -horror -pain -street -hurt -percussion -remix -sigh -fight -speak -speech -talk"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0"
+}

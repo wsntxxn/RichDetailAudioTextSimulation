@@ -1,0 +1,17 @@
+{
+    "queries": [
+        "+vehicle +engine large running rumble -voice -voices -door -toy -sirens"
+    ],
+    "min_duration": 30.0,
+    "max_duration": "*",
+    "grounding_filter": {
+        "query": "vehicle running",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "clap_filter": {
+        "query": "large vehicle running",
+        "threshold": 0.25
+    }
+}

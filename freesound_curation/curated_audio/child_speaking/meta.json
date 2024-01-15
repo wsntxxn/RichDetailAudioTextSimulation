@@ -1,0 +1,16 @@
+{
+    "queries": [
+        "+child +[speak|voice|talk] -birds -crying -screams -different -cough -choir -singing -sing -laugh -music -field-recording -man -laughter -gunshot -transformed -hentai -male -moan -horror -pain -laughter -street -hurt -percussion -remix -sigh -fight"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "child speaking",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    },
+    "clap_filter": {
+        "query": "child speaking"
+    }
+}

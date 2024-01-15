@@ -1,0 +1,13 @@
+{
+    "queries": [
+        "+cheering -thunder -creaking -effect -electronic -clink -swish -piano -synth -birds -hip -applause -clapping -cough -choir -singing -sing -laugh -music -gunshot -moan -horror -pain -laughter -hurt -percussion -remix -sigh -fight -speak -speech -talk"
+    ],
+    "min_duration": 2.0,
+    "max_duration": "15.0",
+    "grounding_filter": {
+        "query": "cheering",
+        "threshold": 0.5,
+        "connect_duration": 0.5,
+        "max_non_target_duration": 5.0
+    }
+}

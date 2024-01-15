@@ -1,0 +1,11 @@
+{
+    "queries": [
+        "+cry -sniffling -sniffing -ghost +woman -thunder -scream -creaking -effect -electronic -clink -swish -piano -synth -birds -hip -applause -clapping -cough -choir -singing -sing -laugh -music -gunshot -moan -horror -pain -laughter -hurt -percussion -remix -sigh -fight -child"
+    ],
+    "min_duration": 0.0,
+    "max_duration": "600.0",
+    "clap_filter": {
+        "query": "woman crying",
+        "threshold": 0.4
+    }
+}

@@ -1,0 +1,386 @@
+{
+    "gunshot": [
+        "gunshot"
+    ],
+    "babbling_background_chatter": [
+        "people talking",
+        "babbling"
+    ],
+    "man_speaking": [
+        "man speaking"
+    ],
+    "wind_blowing": [
+        "wind blowing"
+    ],
+    "food_frying_oil_sizzling": [
+        "food frying",
+        "oil sizzling"
+    ],
+    "ocean_waves": [
+        "ocean waves",
+        "waves crashing the shore"
+    ],
+    "dog_barking": [
+        "dog bark",
+        "dog barking"
+    ],
+    "siren": [
+        "siren wailing"
+    ],
+    "train_horn": [
+        "train horn honking"
+    ],
+    "saxophone": [
+        "saxophone playing"
+    ],
+    "pig_oinking": [
+        "pig oinking",
+        "pig oink"
+    ],
+    "cheering": [
+        "a group cheers"
+    ],
+    "train_running": [
+        "train running on the track"
+    ],
+    "drum": [
+        "drum playing"
+    ],
+    "group_singing": [
+        "a group of people are singing"
+    ],
+    "sheep_goat_bleating": [
+        "sheep bleating",
+        "goat bleating"
+    ],
+    "scissors": [
+        "scissors"
+    ],
+    "sigh": [
+        "sigh"
+    ],
+    "crickets": [
+        "crickets chirping"
+    ],
+    "printer": [
+        "printer"
+    ],
+    "piano": [
+        "piano playing"
+    ],
+    "pure_music": [
+        "music"
+    ],
+    "music": [
+        "music playing"
+    ],
+    "water_running": [
+        "water running",
+        "water splashing",
+        "water flowing"
+    ],
+    "footstep": [
+        "footstep"
+    ],
+    "aircraft_flying_by": [
+        "aircraft flying"
+    ],
+    "scraping_rubbing_sanding": [
+        "scraping",
+        "rubbing",
+        "sanding"
+    ],
+    "baby_crying": [
+        "baby crying",
+        "infant crying"
+    ],
+    "electric_guitar": [
+        "electric guitar"
+    ],
+    "telephone_ringing": [
+        "telephone ringing"
+    ],
+    "explosion": [
+        "explosion"
+    ],
+    "cough": [
+        "cough"
+    ],
+    "thunder": [
+        "thunder and rain"
+    ],
+    "flute": [
+        "flute playing"
+    ],
+    "bagpipe": [
+        "bagpipe playing"
+    ],
+    "orchestra": [
+        "orchestra"
+    ],
+    "cow_mooing": [
+        "cow mooing"
+    ],
+    "shout_scream": [
+        "shout",
+        "scream"
+    ],
+    "cymbal": [
+        "cymbal and drum"
+    ],
+    "woman_singing": [
+        "woman singing"
+    ],
+    "engine_starting_revving": [
+        "engine starting",
+        "engine revving",
+        "engine accelerating"
+    ],
+    "crumpling_crinkling_crackling": [
+        "crumpling",
+        "crinkling",
+        "crackling"
+    ],
+    "keyboard_typing": [
+        "keyboard typing",
+        "someone types on a keyboard"
+    ],
+    "horse_neighing": [
+        "horse neighing"
+    ],
+    "cat_meowing": [
+        "cat meowing"
+    ],
+    "motorboat": [
+        "motorboat"
+    ],
+    "frog": [
+        "frog croaking"
+    ],
+    "tape": [
+        "tape"
+    ],
+    "rain": [
+        "rain"
+    ],
+    "door_slamming": [
+        "door closing"
+    ],
+    "duck_quacking": [
+        "duck quacking"
+    ],
+    "man_laughing": [
+        "man laughing"
+    ],
+    "wheel_rolling": [
+        "wheel rolling"
+    ],
+    "horse_clip_clopping": [
+        "horse clip-clopping",
+        "horse running"
+    ],
+    "woman_speaking": [
+        "woman speaking"
+    ],
+    "clock_ticking": [
+        "clock ticking",
+        "tick-tock"
+    ],
+    "breathing": [
+        "breathing"
+    ],
+    "toilet_flushing": [
+        "toilet flushing"
+    ],
+    "beeping": [
+        "beeping"
+    ],
+    "car_passing": [
+        "car passing"
+    ],
+    "chicken_rooster_clucking": [
+        "chicken clucking",
+        "rooster clucking"
+    ],
+    "man_singing": [
+        "man singing"
+    ],
+    "wolf": [
+        "wolf howling"
+    ],
+    "bird_cooing": [
+        "pigeon cooing",
+        "dove cooing"
+    ],
+    "train_whistle": [
+        "train whistle"
+    ],
+    "acoustic_guitar": [
+        "acoustic guitar"
+    ],
+    "squeaking": [
+        "squeaking"
+    ],
+    "whistling": [
+        "a person whistles",
+        "someone whistling"
+    ],
+    "machine_vibration_humming": [
+        "machine vibration",
+        "machine humming"
+    ],
+    "harmonica": [
+        "harmonica"
+    ],
+    "man_crying": [
+        "man crying"
+    ],
+    "water_dripping": [
+        "water dripping"
+    ],
+    "violin": [
+        "violin playing"
+    ],
+    "woman_laughing": [
+        "woman laughing"
+    ],
+    "sawing": [
+        "sawing"
+    ],
+    "rattling": [
+        "rattling"
+    ],
+    "winding_up": [
+        "winding up"
+    ],
+    "bird_flapping_wings": [
+        "bird flapping wings"
+    ],
+    "crow": [
+        "crow cawing"
+    ],
+    "burping_belching": [
+        "burping",
+        "belching"
+    ],
+    "bird_chirping": [
+        "bird chirping",
+        "bird singing"
+    ],
+    "hammering": [
+        "hammering"
+    ],
+    "trumpet": [
+        "trumpet playing"
+    ],
+    "rustling": [
+        "rustling"
+    ],
+    "accordion": [
+        "accordion"
+    ],
+    "cello": [
+        "cello playing"
+    ],
+    "whisper": [
+        "whisper"
+    ],
+    "applause_clapping": [
+        "applause",
+        "clapping"
+    ],
+    "snoring": [
+        "snoring"
+    ],
+    "typewriter": [
+        "typewriter"
+    ],
+    "large_vehicle_running": [
+        "truck running",
+        "bus running"
+    ],
+    "sewing_machine_running": [
+        "sewing machine"
+    ],
+    "helicopter": [
+        "helicopter hovering"
+    ],
+    "fart": [
+        "fart"
+    ],
+    "traffic_noise": [
+        "traffic noise"
+    ],
+    "power_tool_drill": [
+        "power tool running",
+        "drilling"
+    ],
+    "zipper": [
+        "zipper"
+    ],
+    "child_speaking": [
+        "child speaking",
+        "kid speaking"
+    ],
+    "sneeze": [
+        "sneeze"
+    ],
+    "radio_static": [
+        "radio static"
+    ],
+    "woman_crying": [
+        "woman crying"
+    ],
+    "insects_buzzing": [
+        "insects buzzing"
+    ],
+    "water_gurgling": [
+        "water gurgling"
+    ],
+    "tires_squealing": [
+        "tires squealing",
+        "skidding"
+    ],
+    "spraying": [
+        "spraying"
+    ],
+    "door_knocking": [
+        "door knocking"
+    ],
+    "tapping_clicking_clanking": [
+        "tapping",
+        "clicking",
+        "clanking"
+    ],
+    "whoosh_swoosh": [
+        "whoosh",
+        "swoosh"
+    ],
+    "whale": [
+        "whale vocalization"
+    ],
+    "thump_thud": [
+        "thump",
+        "thud"
+    ],
+    "sniff": [
+        "sniff"
+    ],
+    "baby_laughing": [
+        "baby laughing"
+    ],
+    "camera_shutter": [
+        "camera shutter",
+        "camera muffling"
+    ],
+    "bell_chiming": [
+        "bell chiming",
+        "bell ringing"
+    ],
+    "car_horn_honking": [
+        "car horn honking"
+    ],
+    "bass_guitar": [
+        "bass playing"
+    ]
+}

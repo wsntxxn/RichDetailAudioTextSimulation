@@ -1,0 +1,7 @@
+{
+    "queries": [
+        "+train wheel clickety-clack field-recording +track -talk -speech -announce -announcement -horn -voice -bell -whistle"
+    ],
+    "min_duration": 30.0,
+    "max_duration": 180.0
+}

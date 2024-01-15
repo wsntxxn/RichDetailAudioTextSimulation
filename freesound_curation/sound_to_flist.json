@@ -1,0 +1,826 @@
+{
+    "whisper": {
+        "text": "whisper",
+        "threshold": 0.4,
+        "flist": ["./curated_audio/whisper/filtered_ids.txt"]
+    },
+    "babbling_background_chatter": {
+        "text": "people talking",
+        "threshold": 0.4,
+        "flist": ["./curated_audio/background_chatter/filtered_ids.txt"]
+    },
+    "train_running": {
+        "text": "train running",
+        "threshold": 0.4,
+        "flist": ["./curated_audio/train_running/filtered_ids.txt"]
+    },
+    "train_whistle": {
+        "text": "train whistle",
+        "threshold": 0.4,
+        "flist": ["./curated_audio/train_whistle/filtered_ids.txt"]
+    },
+    "train_horn": {
+        "text": "train horn",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/train_horn/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/train_horn/non_single.txt"
+            ]
+        }
+    },
+    "man_speaking": {
+        "text": "man speaking",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/man_speaking/filtered_ids.txt"
+        ]
+    },
+    "engine_starting_revving": {
+        "text": "engine starting",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/engine_starting_revving/filtered_ids.txt"
+        ]
+    },
+
+    "rattling": {
+        "text": "rattling",
+        "threshold": 0.4,
+        "flist": ["./curated_audio/rattling/clap_filtered.txt"]
+    },
+    "door_knocking": {
+        "text": "door knocking",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/door_knocking/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/door_knocking/non_single.txt"
+            ]
+        }
+    },
+    "door_slamming": {
+        "text": "door slamming",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/door_slamming/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/door_slamming/non_single.txt"
+            ]
+        }
+    },
+
+    "thump_thud": {
+        "text": "loud impact thump",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/thump_thud/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/thump_thud/non_single.txt"
+            ]
+        }
+    },
+
+    "spraying": {
+        "text": "spraying",
+        "threshold": 0.5,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/spraying/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/spraying/non_single.txt"
+            ]
+        }
+    },
+
+    "horse_clip_clopping": {
+        "text": "horse clip clipping",
+        "threshold": 0.5,
+        "flist": [
+            "./curated_audio/horse_clip_clopping/clap_filtered.txt"
+        ]
+    },
+
+    "pig_oinking": {
+        "text": "pig oinking",
+        "threshold": 0.5,
+        "flist": [
+            "./curated_audio/pig_oinking/grounding_filtered_ids.txt"
+        ]
+    },
+
+    "chicken_rooster_clucking": {
+        "text": "chicken rooster clucking",
+        "threshold": 0.5,
+        "flist": [
+            "./curated_audio/chicken_rooster_clucking/grounding+clap_filtered.txt"
+        ]
+    },
+
+    "wolf": {
+        "text": "wolf howling",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/wolf/clap_filtered.txt",
+            "./youtube/wolf/grounding_filtered_ids.txt"
+        ]
+    },
+    "insects_buzzing": {
+        "text": "insects buzzing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/insects_buzzing/filtered_ids.txt"
+        ]
+    },
+    "frog": {
+        "text": "frog croaking",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/frog/filtered_ids.txt"
+        ]
+    },
+    "whale": {
+        "text": "whale vocalization",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/whale/clap_filtered.txt"
+        ]
+    },
+    "car_passing": {
+        "text": "car passing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/car_passing/filtered_ids.txt"
+        ]
+    },
+    "traffic_noise": {
+        "text": "traffic noise",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/traffic_noise/filtered_ids.txt"
+        ]
+    },
+    "cat_meowing": {
+        "text": "cat meowing",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/cat_meowing/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/cat_meowing/non_single.txt"
+            ]
+        }
+    },
+    "water_running": {
+        "text": "water running",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/water_splashing/filtered_ids.txt"
+        ]
+    },
+    "rain": {
+        "text": "rain",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/rain/filtered_ids.txt"
+        ]
+    },
+    "ocean_waves": {
+        "text": "ocean waves",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/ocean_waves/filtered_ids.txt"
+        ]
+    },
+    "water_gurgling": {
+        "text": "water gurgling",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/water_gurgling/filtered_ids.txt"
+        ]
+    },
+    "scraping_rubbing_sanding": {
+        "text": "scraping rubbing sanding",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/scraping_rubbing_sanding/filtered_ids.txt"
+        ]
+    },
+    "sawing": {
+        "text": "sawing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/sawing_wood/filtered_ids.txt"
+        ]
+    },
+    "gunshot": {
+        "text": "gunshot",
+        "threshold": 0.45,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/gunshot/filtered_single.txt",
+                "./curated_audio/gunshot/filtered_to_split.txt"
+            ],
+            "non_single": [
+                "./curated_audio/gunshot/non_single.txt"
+            ]
+        }
+    },
+    "bell_chiming": {
+        "text": "bell chiming",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/bell_chiming_ringing/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/bell_chiming_ringing/non_single.txt"
+            ]
+        }
+    },
+    "sewing_machine_running": {
+        "text": "sewing machine running",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/sewing_machine_running/filtered_ids.txt"
+        ]
+    },
+    "breathing": {
+        "text": "breathing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/breathing/filtered_ids.txt"
+        ]
+    },
+    "sneeze": {
+        "text": "sneeze",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/sneeze/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/sneeze/non_single.txt"
+            ]
+        }
+    },
+    "cough": {
+        "text": "cough",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/cough/filtered_ids.txt"
+        ]
+    },
+    "sigh": {
+        "text": "sigh",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/sigh/filtered_ids.txt"
+        ]
+    },
+    "sniff": {
+        "text": "sniff",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/sniff/filtered_ids.txt"
+        ]
+    },
+    "machine_vibration_humming": {
+        "text": "machine vibration humming",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/machine_engine_running/grounding_filtered_ids.txt"
+        ]
+    },
+    "power_tool_drill": {
+        "text": "drilling",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/drill/filtered_ids.txt"
+        ]
+    },
+    "bird_chirping": {
+        "text": "bird chirping",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/bird_chirping/filtered_ids.txt"
+        ]
+    },
+    "aircraft_flying_by": {
+        "text": "aircraft flying by",
+        "threshold": 0.3,
+        "flist": ["./curated_audio/aircraft_flying_by/filtered_ids.txt"]
+    },
+    "wind_blowing": {
+        "text": "wind blowing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/wind_blowing/filtered_ids.txt"
+        ]
+    },
+    "motorboat": {
+        "text": "motorboat",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/motorboat/clap_filtered.txt"
+        ]
+    },
+    "rustling": {
+        "text": "rustling",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/rustling/filtered_ids.txt"
+        ]
+    },
+    "footstep": {
+        "text": "footstep",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/footstep/filtered_ids.txt"
+        ]
+    },
+    "camera_shutter": {
+        "text": "camera shutter",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/camera_shutter/clap_filtered.txt"
+        ]
+    },
+    "crumpling_crinkling_crackling": {
+        "text": "crumpling crinkling crackling",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/crumping_crinking_crackling/filtered_ids.txt"
+        ]
+    },
+    "beeping": {
+        "text": "beeping",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/beep/grounding_clap_filtered.txt"
+            ],
+            "non_single": [
+                "./curated_audio/beep/non_single.txt"
+            ]
+        }
+    },
+    "crickets": {
+        "text": "crickets",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/crickets/grounding_clap_filtered.txt"
+        ]
+    },
+    "woman_speaking": {
+        "text": "woman speaking",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/woman_speaking/grounding_filtered_ids.txt"
+        ]
+    },
+    "child_speaking": {
+        "text": "child speaking",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/child_speaking/grounding_filtered_ids.txt"
+        ]
+    },
+    "applause_clapping": {
+        "text": "applause",
+        "threshold": 0.3,
+        "flist": ["./curated_audio/applause_clapping/filtered_ids.txt"]
+    },
+    "cheering": {
+        "text": "cheering",
+        "threshold": 0.3,
+        "flist": ["./curated_audio/cheering/grounding_filtered_ids.txt"]
+    },
+
+    "woman_crying": {
+        "text": "woman crying",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/woman_crying/clap_filtered.txt",
+            "./youtube/woman_crying/grounding_filtered.txt"
+        ]
+    },
+    "baby_crying": {
+        "text": "baby crying",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/baby_crying/grounding_filtered_ids.txt"
+        ]
+    },
+    "food_crying_oil_sizzling": {
+        "text": "food crying oil sizzling",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/food_frying_or_oil_sizzling/grounding_filtered_ids.txt"
+        ]
+    },
+    "car_horn_honking": {
+        "text": "car horn honking",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/car_horn_honking/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/car_horn_honking/non_single.txt"
+            ]
+        }
+    },
+    "shout_scream": {
+        "text": "screaming",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/screaming_shout/clap_filtered.txt"
+        ]
+    },
+    "toilet_flushing": {
+        "text": "toilet flushing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/toilet_flushing/clap_filtered.txt"
+        ]
+    },
+    "siren": {
+        "text": "siren",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/siren/grounding_filtered_ids.txt"
+        ]
+    },
+    "helicopter": {
+        "text": "helicopter",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/helicopter/grounding_filtered_ids.txt"
+        ]
+    },
+    "whistling": {
+        "text": "whistling",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/whistling/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/whistling/non_single.txt"
+            ]
+        }
+    },
+    "keyboard_typing": {
+        "text": "keyboard typing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/keyboard_typing/clap_filtered.txt"
+        ]
+    },
+    "large_vehicle_running": {
+        "text": "large vehicle running",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/large_vehicle_running/clap_filtered.txt"
+        ]
+    },
+    "clock_ticking": {
+        "text": "clock ticking",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/clock_ticking/grounding_filtered_ids.txt"
+        ]
+    },
+    "bird_flapping_wings": {
+        "text": "bird flapping wings",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/bird_flapping_wings/grounding_filtered_ids.txt"
+        ]
+    },
+    "bird_cooing": {
+        "text": "bird cooing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/bird_cooing/grounding_filtered_ids.txt"
+        ]
+    },
+    "radio_static": {
+        "text": "radio static",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/radio_static/clap_filtered.txt"
+        ]
+    },
+    "telephone_ringing": {
+        "text": "telephone ringing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/telephone_ringing/grounding_filtered_ids.txt"
+        ]
+    },
+    "explosion": {
+        "text": "explosion",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/explosion/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/explosion/non_single.txt"
+            ]
+        }
+    },
+    "tires_squealing": {
+        "text": "tires squealing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/tire_squealing/grounding_filtered_ids.txt",
+            "./curated_audio/tire_squealing/non_single.txt"
+        ]
+    },
+    "snoring": {
+        "text": "snoring",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/snoring/grounding_filtered_ids.txt"
+        ]
+    },
+    "burping_belching": {
+        "text": "burping",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/burping/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/burping/non_single.txt"
+            ]
+        }
+    },
+    "man_singing": {
+        "text": "man singing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/man_singing/grounding_filtered_ids.txt"
+        ]
+    },
+    "woman_singing": {
+        "text": "woman singing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/woman_singing/grounding_filtered_ids.txt"
+        ]
+    },
+    "man_laughing": {
+        "text": "man laughing",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/man_laughing/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/man_laughing/non_single.txt"
+            ]
+        }
+    },
+    "woman_laughing": {
+        "text": "woman laughing",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/woman_laughing/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/woman_laughing/non_single.txt"
+            ]
+        }
+    },
+    "baby_laughing": {
+        "text": "baby laughing",
+        "threshold": 0.4,
+        "flist": {
+            "single_occurrence": [
+                "./curated_audio/baby_laughing/filtered_single.txt"
+            ],
+            "non_single": [
+                "./curated_audio/baby_laughing/non_single.txt"
+            ]
+        }
+    },
+    "crow": {
+        "text": "crow",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/crow/grounding_filtered_ids.txt"
+        ]
+    },
+    "water_dripping": {
+        "text": "water dripping",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/water_dripping/clap_filtered.txt"
+        ]
+    },
+    "fart": {
+        "text": "fart",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/fart/clap_filtered.txt"
+        ]
+    },
+    "tape": {
+        "text": "tape",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/tape/clap_filtered.txt"
+        ]
+    },
+    "printer": {
+        "text": "printer",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/printer/clap_filtered.txt"
+        ]
+    },
+
+    "winding_up": {
+        "text": "winding up",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/winding_up/clap_filtered.txt"
+        ]
+    },
+    "scissors": {
+        "text": "scissors",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/scissors/clap_filtered.txt"
+        ]
+    },
+    "wheel_rolling": {
+        "text": "wheel rolling",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/wheel_rolling/clap_filtered.txt"
+        ]
+    },
+    "squeaking": {
+        "text": "squeaking",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/squeaking/clap_filtered.txt"
+        ]
+    },
+    "thunder": {
+        "text": "thunder",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/thunder/grounding_filtered.txt"
+        ]
+    },
+    "typewriter": {
+        "text": "typewriter",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/typewriter/grounding_filtered_ids.txt"
+        ]
+    },
+    "zipper": {
+        "text": "zipper",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/zipper/clap_filtered.txt"
+        ]
+    },
+    "pure_music": {
+        "text": "pure music",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/pure_music/clap_filtered.txt"
+        ]
+    },
+    "accordion": {
+        "text": "accordion",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/accordion/clap_filtered.txt"
+        ]
+    },
+    "acoustic_guitar": {
+        "text": "acoustic guitar",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/acoustic_guitar/clap_filtered.txt"
+        ]
+    },
+    "bass_guitar": {
+        "text": "bass guitar",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/bass_guitar/clap_filtered.txt"
+        ]
+    },
+    "electric_guitar": {
+        "text": "electric guitar",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/electric_guitar/clap_filtered.txt"
+        ]
+    },
+    "drum": {
+        "text": "drum",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/drum/clap_filtered.txt"
+        ]
+    },
+    "harmonica": {
+        "text": "harmonica",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/harmonica/clap_filtered.txt"
+        ]
+    },
+    "piano": {
+        "text": "piano",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/piano/clap_filtered.txt"
+        ]
+    },
+    "trumpet": {
+        "text": "trumpet",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/trumpet/clap_filtered.txt"
+        ]
+    },
+    "saxophone": {
+        "text": "saxophone",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/saxophone/clap_filtered.txt"
+        ]
+    },
+    "flute": {
+        "text": "flute",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/flute/clap_filtered.txt"
+        ]
+    },
+    "violin": {
+        "text": "violin",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/violin/clap_filtered.txt"
+        ]
+    },
+    "orchestra": {
+        "text": "orchestra",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/orchestra/clap_filtered.txt"
+        ]
+    },
+    "cymbal": {
+        "text": "cymbal",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/cymbal/clap_filtered.txt"
+        ]
+    },
+    "cello": {
+        "text": "cello",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/cello/clap_filtered.txt"
+        ]
+    },
+    "bagpipe": {
+        "text": "bagpipe",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/bagpipe/clap_filtered.txt"
+        ]
+    },
+    "group_singing": {
+        "text": "group singing",
+        "threshold": 0.4,
+        "flist": [
+            "./curated_audio/group_singing/clap_filtered.txt"
+        ]
+    }
+}
