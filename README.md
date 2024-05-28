@@ -84,3 +84,17 @@ python ./python_scripts/generate_caption_from_metadata.py \
 ```
 
 `meta_file` is generated from the JAMS generation step and the generated caption is in `caption_file`.
+
+## BibTeX
+
+If you find this repository useful, please cite using this BibTeX:
+```BibTeX
+@inproceedings{xu2024detailed,
+  title={A Detailed Audio-Text Data Simulation Pipeline Using Single-Event Sounds},
+  author={Xu, Xuenan and Xu, Xiaohang and Xie, Zeyu and Zhang, Pingyue and Wu, Mengyue and Yu, Kai},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={1091--1095},
+  year={2024},
+  organization={IEEE}
+}
+```
