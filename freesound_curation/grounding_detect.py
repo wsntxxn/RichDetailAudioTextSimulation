@@ -1,6 +1,6 @@
 import sys
 import os
-sys.path.insert(1, "/home/public/work/freesound_curation/audio_text_grounding")
+sys.path.insert(1, os.path.join(os.getcwd(), "./audio_text_grounding"))
 
 from pathlib import Path
 import json
@@ -262,7 +262,7 @@ def filter_fids(args):
             if len(segs) == 0:
                 print(f"'{text}' is not detected in {fsid}, excluded")
             elif max(nontarget_lens) > max_non_target_duration:
-                if args.cut_segments:
+                if cut_segments:
                     for seg in segs:
                         onset, offset = seg
                         ori_duration = offset - onset

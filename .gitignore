@@ -3,3 +3,5 @@ backup
 data
 notebooks/
 scripts/start_jupyter.sh
+
+__pycache__/

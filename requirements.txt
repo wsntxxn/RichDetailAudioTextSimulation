@@ -1,0 +1,5 @@
+scaper==1.6.5
+openai
+pypeln==0.4.9
+librosa==0.10.1
+pandas

@@ -1,4 +1,3 @@
-import glob
 import os
 import json
 from pathlib import Path
@@ -7,8 +6,7 @@ from typing import Dict, List
 import numpy as np
 import pandas as pd
 import jams
-from tqdm import trange, tqdm
-import librosa
+from tqdm import tqdm
 from scaper.core import _sample_trunc_norm
 
 
@@ -52,8 +50,8 @@ def generate_one_sound(sound_files: List,
                        repeat_single: bool,
                        times_control: bool,
                        random_state: np.random.RandomState,
-                       loud_threshold: float=15.0,
-                       low_threshold: float=2.5,):
+                       loud_threshold: float = 15.0,
+                       low_threshold: float = 2.5,):
     """
     Args:
         cur_duration (float): the current maximum offset of all sounds
@@ -331,6 +329,7 @@ def generate(args):
                 np.arange(min_num_events, max_num_events + 1),
                 p=num_events_weight)
             
+            
             avail_sound_types = sound_types.copy()
             avail_cnts = cnts.copy()
             
@@ -515,7 +514,10 @@ if __name__ == "__main__":
 
     job_name = Path(args.output_meta).stem
     synth_meta_fpath = Path(args.output_meta).with_name(job_name + "_synth_hp.json")
+    if not synth_meta_fpath.parent.exists():
+        synth_meta_fpath.parent.mkdir(exist_ok=True, parents=True)
     with open(synth_meta_fpath, "w") as writer:
         json.dump(vars(args), writer, indent=4)
 
     generate(args)
+    
