@@ -36,8 +36,8 @@ They look like:
 ```json
 {
     "access_token": "xxx",
-    "refresh_token": "xxx",
-    ... (useless part)
+    "refresh_token": "xxx"
+    // ... (useless part)
 }
 ```
 You need to generate them yourself if you want to use Freesound search API.
@@ -123,8 +123,7 @@ Finally, we obtain the filtered IDs in `curated_audio/bird_chirping/clap_filtere
 Some audio clips contain clean occuurences of sound events, but are discarded because we need single occurrence.
 These clips can be leveraged by splitting into single occurrence segments:
 ```bash
-python grounding_detect.py filter \
-    --cut_segments \
+python grounding_split_occurrence.py \
     --fin curated_audio/dog_barking/clap_filtered.txt \
     --text "dog barking" \
     --fmeta curated_audio/dog_barking/meta.json \
@@ -142,6 +141,16 @@ Other parameters are similar to previous ones.
 For example, `connect_duration = 0.5` means if the distance between two segments is less than 0.5s, the two segments will be treated as a single one.
 Different sound events may require different settings.
 
+The obtained file is in this format (a plain text with the column separator of space, without header, here we use table for better visualization):
+
+| Freesound ID | start | end | pad |
+| --- | --- | --- | --- |
+| 413758 | 6.760 | 7.720 | 0.520 |
+| 236038 | 1.720 | 2.200 | 0.760 |
+| ... | ... | ... | ... |
+
+`pad` is set to make the segment have the duration of at least `min_segment_duration` seconds.
+
 
 Finally, we split the original ID file into single occurrence file and non-single occurrence one:
 ```bash
@@ -151,3 +160,4 @@ python split_single_multiple_txt.py \
     --fsplit curated_audio/dog_barking/filtered_to_split.txt \
     --fout curated_audio/dog_barking/non_single.txt
 ```
+
